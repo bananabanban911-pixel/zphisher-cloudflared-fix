@@ -44,7 +44,7 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
   - Localhost
   - Cloudflared
   - LocalXpose
-- Mask URL support 
+- Mask URL support (BROKEN)
 - Docker support
 
 ##
@@ -58,7 +58,7 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 - Now go to cloned directory and run `zphisher.sh` -
   ```
-  $ cd zphisher
+  $ cd zphisher-cloudflared-fix
   $ bash zphisher.sh
   ```
 
@@ -67,7 +67,7 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 ##
 
 ### Installation (Termux)
-You can easily install zphisher in Termux by using tur-repo
+You can easily install zphisher in Termux by using tur-repo (NOT CLOUDFLARED FIXED !!)
 ```
 $ pkg install tur-repo
 $ pkg install zphisher
@@ -102,17 +102,6 @@ $ zphisher
 ##
 
 ### Run on Docker
-
-- Docker Image Mirror:
-  - **DockerHub** : 
-    ```
-    docker pull htrtech/zphisher
-    ```
-  - **GHCR** : 
-    ```
-    docker pull ghcr.io/bananabanban911-pixel/zphisher-cloudflared-fix:latest
-    ```
-
 - By using the wrapper script [**run-docker.sh**](https://raw.githubusercontent.com/bananabanban911-pixel/zphisher-cloudflared-fix/master/run-docker.sh)
 
   ```
